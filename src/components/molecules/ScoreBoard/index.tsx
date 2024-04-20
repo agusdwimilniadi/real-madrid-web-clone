@@ -10,26 +10,31 @@ const ScoreBoard = () => {
   return (
     <div className="bg-[#0F2145] text-white pt-8 pb-5 px-14">
       <div className="text-center  text-sm">
-        <p className="font-bold text-base mb-1">Friendly Match</p>
-        <p>Gelora Bung Karno Stadium</p>
+        <p className="font-bold text-base mb-1">UEFA Champions League</p>
+        <p>Spotify Camp Nou</p>
         <p>Football · First Team · Male</p>
       </div>
       <div className="flex justify-evenly items-start mt-5 gap-10">
         <div>
-          <Team img="/assets/images/logo-real.webp" name="Real Madrid" />
+          {/* <Team img="/assets/images/logo-real.webp" name="Real Madrid" /> */}
+          <Team
+            img="https://upload.wikimedia.org/wikipedia/id/thumb/4/47/FC_Barcelona_%28crest%29.svg/1200px-FC_Barcelona_%28crest%29.svg.png"
+            name="FC Barcelona"
+          />
         </div>
         <div className="flex flex-col gap-2">
           <div className="flex text-5xl items-center gap-8">
-            <p>4</p>
-            <p className="text-3xl text-gray-500">-</p>
             <p>1</p>
+            <p className="text-3xl text-gray-500">-</p>
+            <p>4</p>
           </div>
           <div className="text-xs font-semibold text-center bg-blue-50 w-fit text-blue-900 p-1 mx-auto rounded">
-            17:00
+            02:00
           </div>
         </div>
         <div>
-          <Team img="/assets/images/fc-barca.png" name="FC Barcelona" />
+          {/* <Team img="/assets/images/fc-barca.png" name="FC Barcelona" /> */}
+          <Team img="/assets/images/logo-real.webp" name="Real Madrid" />
         </div>
       </div>
       <button className="border-2 border-blue-50/20 w-full mt-5 py-2 rounded-lg hover:bg-white hover:text-indigo-600 transition-all ease-in-out duration-700 font-semibold text-sm hover:border-indigo-600">

@@ -7,6 +7,7 @@ import { NAV_ITEM } from '../../../constant/const';
 
 const Navbar = () => {
   const [isOpenSidebar, setIsOpenSidebar] = useState(false);
+
   return (
     <div>
       <nav className="bg-white h-[9vh] flex justify-between items-center px-5 py-9">

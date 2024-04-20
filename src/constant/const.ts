@@ -66,3 +66,39 @@ export const ITEM_NEWS = [
     title: ' We won our 5th Liga 67 years ago ',
   },
 ];
+interface IEvent {
+  logoTeamHome: string;
+  logoTeamAway: string;
+  nameTeamHome: string;
+  nameTeamAway: string;
+  competitionType: 'UCL' | 'LaLiga';
+  steps: string;
+  date: string;
+  stadium: string;
+}
+export const NEXT_EVENTS: IEvent[] = [
+  {
+    logoTeamHome:
+      'https://publish-p47754-e237306.adobeaemcloud.com/adobe/dynamicmedia/deliver/dm-aid--b05ba79b-d2fc-4155-b958-210c4694a6de/_kq9cckrnlogidldtdie2fkbl.app.png?preferwebp=true&width=144&height=144',
+    logoTeamAway:
+      'https://publish-p47754-e237306.adobeaemcloud.com/adobe/dynamicmedia/deliver/dm-aid--9d8fa2f9-e2bd-46c9-9798-5330f9ed40a5/agh9ifb2mw3ivjusgedj7c3fe.app.png?preferwebp=true&width=56&height=56',
+    nameTeamHome: 'Real Madrid',
+    nameTeamAway: 'Barcelona',
+    competitionType: 'LaLiga',
+    steps: 'Match Week 31',
+    date: '2024-04-22',
+    stadium: 'Estadio Santiago Bernabeu',
+  },
+  {
+    logoTeamHome:
+      'https://publish-p47754-e237306.adobeaemcloud.com/adobe/dynamicmedia/deliver/dm-aid--7f5e8255-64da-48de-8e1c-542f7622021c/apoawtpvac4zqlancmvw4nk4o.app.png?preferwebp=true&width=144&height=144',
+    logoTeamAway:
+      'https://publish-p47754-e237306.adobeaemcloud.com/adobe/dynamicmedia/deliver/dm-aid--b05ba79b-d2fc-4155-b958-210c4694a6de/_kq9cckrnlogidldtdie2fkbl.app.png?preferwebp=true&width=56&height=56',
+    nameTeamHome: 'Bayern Munchen',
+    nameTeamAway: 'Real Madrid',
+    competitionType: 'UCL',
+    date: '2024-05-01',
+    steps: 'Semi Final (First-Leg)',
+    stadium: 'Allianz Arena',
+  },
+];
