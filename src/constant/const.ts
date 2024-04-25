@@ -101,4 +101,163 @@ export const NEXT_EVENTS: IEvent[] = [
     steps: 'Semi Final (First-Leg)',
     stadium: 'Allianz Arena',
   },
+  {
+    logoTeamHome:
+      'https://publish-p47754-e237306.adobeaemcloud.com/adobe/dynamicmedia/deliver/dm-aid--b05ba79b-d2fc-4155-b958-210c4694a6de/_kq9cckrnlogidldtdie2fkbl.app.png?preferwebp=true&width=144&height=144',
+    logoTeamAway:
+      'https://publish-p47754-e237306.adobeaemcloud.com/adobe/dynamicmedia/deliver/dm-aid--9d8fa2f9-e2bd-46c9-9798-5330f9ed40a5/agh9ifb2mw3ivjusgedj7c3fe.app.png?preferwebp=true&width=56&height=56',
+    nameTeamHome: 'Real Madrid',
+    nameTeamAway: 'Barcelona',
+    competitionType: 'LaLiga',
+    steps: 'Match Week 31',
+    date: '2024-04-22',
+    stadium: 'Estadio Santiago Bernabeu',
+  },
+  {
+    logoTeamHome:
+      'https://publish-p47754-e237306.adobeaemcloud.com/adobe/dynamicmedia/deliver/dm-aid--7f5e8255-64da-48de-8e1c-542f7622021c/apoawtpvac4zqlancmvw4nk4o.app.png?preferwebp=true&width=144&height=144',
+    logoTeamAway:
+      'https://publish-p47754-e237306.adobeaemcloud.com/adobe/dynamicmedia/deliver/dm-aid--b05ba79b-d2fc-4155-b958-210c4694a6de/_kq9cckrnlogidldtdie2fkbl.app.png?preferwebp=true&width=56&height=56',
+    nameTeamHome: 'Bayern Munchen',
+    nameTeamAway: 'Real Madrid',
+    competitionType: 'UCL',
+    date: '2024-05-01',
+    steps: 'Semi Final (First-Leg)',
+    stadium: 'Allianz Arena',
+  },
+  {
+    logoTeamHome:
+      'https://publish-p47754-e237306.adobeaemcloud.com/adobe/dynamicmedia/deliver/dm-aid--b05ba79b-d2fc-4155-b958-210c4694a6de/_kq9cckrnlogidldtdie2fkbl.app.png?preferwebp=true&width=144&height=144',
+    logoTeamAway:
+      'https://publish-p47754-e237306.adobeaemcloud.com/adobe/dynamicmedia/deliver/dm-aid--9d8fa2f9-e2bd-46c9-9798-5330f9ed40a5/agh9ifb2mw3ivjusgedj7c3fe.app.png?preferwebp=true&width=56&height=56',
+    nameTeamHome: 'Real Madrid',
+    nameTeamAway: 'Barcelona',
+    competitionType: 'LaLiga',
+    steps: 'Match Week 31',
+    date: '2024-04-22',
+    stadium: 'Estadio Santiago Bernabeu',
+  },
+  {
+    logoTeamHome:
+      'https://publish-p47754-e237306.adobeaemcloud.com/adobe/dynamicmedia/deliver/dm-aid--7f5e8255-64da-48de-8e1c-542f7622021c/apoawtpvac4zqlancmvw4nk4o.app.png?preferwebp=true&width=144&height=144',
+    logoTeamAway:
+      'https://publish-p47754-e237306.adobeaemcloud.com/adobe/dynamicmedia/deliver/dm-aid--b05ba79b-d2fc-4155-b958-210c4694a6de/_kq9cckrnlogidldtdie2fkbl.app.png?preferwebp=true&width=56&height=56',
+    nameTeamHome: 'Bayern Munchen',
+    nameTeamAway: 'Real Madrid',
+    competitionType: 'UCL',
+    date: '2024-05-01',
+    steps: 'Semi Final (First-Leg)',
+    stadium: 'Allianz Arena',
+  },
+  {
+    logoTeamHome:
+      'https://publish-p47754-e237306.adobeaemcloud.com/adobe/dynamicmedia/deliver/dm-aid--b05ba79b-d2fc-4155-b958-210c4694a6de/_kq9cckrnlogidldtdie2fkbl.app.png?preferwebp=true&width=144&height=144',
+    logoTeamAway:
+      'https://publish-p47754-e237306.adobeaemcloud.com/adobe/dynamicmedia/deliver/dm-aid--9d8fa2f9-e2bd-46c9-9798-5330f9ed40a5/agh9ifb2mw3ivjusgedj7c3fe.app.png?preferwebp=true&width=56&height=56',
+    nameTeamHome: 'Real Madrid',
+    nameTeamAway: 'Barcelona',
+    competitionType: 'LaLiga',
+    steps: 'Match Week 31',
+    date: '2024-04-22',
+    stadium: 'Estadio Santiago Bernabeu',
+  },
+  {
+    logoTeamHome:
+      'https://publish-p47754-e237306.adobeaemcloud.com/adobe/dynamicmedia/deliver/dm-aid--7f5e8255-64da-48de-8e1c-542f7622021c/apoawtpvac4zqlancmvw4nk4o.app.png?preferwebp=true&width=144&height=144',
+    logoTeamAway:
+      'https://publish-p47754-e237306.adobeaemcloud.com/adobe/dynamicmedia/deliver/dm-aid--b05ba79b-d2fc-4155-b958-210c4694a6de/_kq9cckrnlogidldtdie2fkbl.app.png?preferwebp=true&width=56&height=56',
+    nameTeamHome: 'Bayern Munchen',
+    nameTeamAway: 'Real Madrid',
+    competitionType: 'UCL',
+    date: '2024-05-01',
+    steps: 'Semi Final (First-Leg)',
+    stadium: 'Allianz Arena',
+  },
+  {
+    logoTeamHome:
+      'https://publish-p47754-e237306.adobeaemcloud.com/adobe/dynamicmedia/deliver/dm-aid--b05ba79b-d2fc-4155-b958-210c4694a6de/_kq9cckrnlogidldtdie2fkbl.app.png?preferwebp=true&width=144&height=144',
+    logoTeamAway:
+      'https://publish-p47754-e237306.adobeaemcloud.com/adobe/dynamicmedia/deliver/dm-aid--9d8fa2f9-e2bd-46c9-9798-5330f9ed40a5/agh9ifb2mw3ivjusgedj7c3fe.app.png?preferwebp=true&width=56&height=56',
+    nameTeamHome: 'Real Madrid',
+    nameTeamAway: 'Barcelona',
+    competitionType: 'LaLiga',
+    steps: 'Match Week 31',
+    date: '2024-04-22',
+    stadium: 'Estadio Santiago Bernabeu',
+  },
+  {
+    logoTeamHome:
+      'https://publish-p47754-e237306.adobeaemcloud.com/adobe/dynamicmedia/deliver/dm-aid--7f5e8255-64da-48de-8e1c-542f7622021c/apoawtpvac4zqlancmvw4nk4o.app.png?preferwebp=true&width=144&height=144',
+    logoTeamAway:
+      'https://publish-p47754-e237306.adobeaemcloud.com/adobe/dynamicmedia/deliver/dm-aid--b05ba79b-d2fc-4155-b958-210c4694a6de/_kq9cckrnlogidldtdie2fkbl.app.png?preferwebp=true&width=56&height=56',
+    nameTeamHome: 'Bayern Munchen',
+    nameTeamAway: 'Real Madrid',
+    competitionType: 'UCL',
+    date: '2024-05-01',
+    steps: 'Semi Final (First-Leg)',
+    stadium: 'Allianz Arena',
+  },
+  {
+    logoTeamHome:
+      'https://publish-p47754-e237306.adobeaemcloud.com/adobe/dynamicmedia/deliver/dm-aid--b05ba79b-d2fc-4155-b958-210c4694a6de/_kq9cckrnlogidldtdie2fkbl.app.png?preferwebp=true&width=144&height=144',
+    logoTeamAway:
+      'https://publish-p47754-e237306.adobeaemcloud.com/adobe/dynamicmedia/deliver/dm-aid--9d8fa2f9-e2bd-46c9-9798-5330f9ed40a5/agh9ifb2mw3ivjusgedj7c3fe.app.png?preferwebp=true&width=56&height=56',
+    nameTeamHome: 'Real Madrid',
+    nameTeamAway: 'Barcelona',
+    competitionType: 'LaLiga',
+    steps: 'Match Week 31',
+    date: '2024-04-22',
+    stadium: 'Estadio Santiago Bernabeu',
+  },
+  {
+    logoTeamHome:
+      'https://publish-p47754-e237306.adobeaemcloud.com/adobe/dynamicmedia/deliver/dm-aid--7f5e8255-64da-48de-8e1c-542f7622021c/apoawtpvac4zqlancmvw4nk4o.app.png?preferwebp=true&width=144&height=144',
+    logoTeamAway:
+      'https://publish-p47754-e237306.adobeaemcloud.com/adobe/dynamicmedia/deliver/dm-aid--b05ba79b-d2fc-4155-b958-210c4694a6de/_kq9cckrnlogidldtdie2fkbl.app.png?preferwebp=true&width=56&height=56',
+    nameTeamHome: 'Bayern Munchen',
+    nameTeamAway: 'Real Madrid',
+    competitionType: 'UCL',
+    date: '2024-05-01',
+    steps: 'Semi Final (First-Leg)',
+    stadium: 'Allianz Arena',
+  },
+];
+
+export const THROPHY = [
+  {
+    id: 1,
+    name: 'The Best Club of the 20th Century FIFA Trophy',
+    img: 'https://publish-p47754-e237306.adobeaemcloud.com/content/dam/portals/realmadrid-com/es-es/core-content/assemblies/honors/trophies/SIGLOXX.app.svg?$Mobile$&wid=32&hei=32',
+    count: 1,
+  },
+  {
+    id: 2,
+    name: 'European Cup',
+    img: 'https://publish-p47754-e237306.adobeaemcloud.com/content/dam/common/statics/public-content/competition/football/4oogyu6o156iphvdvphwpck10-icon.app.svg?$Mobile$&wid=32&hei=32',
+    count: 14,
+  },
+  {
+    id: 3,
+    name: 'FIFA Club World Cup',
+    img: 'https://publish-p47754-e237306.adobeaemcloud.com/content/dam/common/statics/public-content/competition/football/cmvff99i4w10udooqckzt8c2x-icon.app.svg?$Mobile$&wid=32&hei=32',
+    count: 8,
+  },
+  {
+    id: 4,
+    name: 'National Ligues',
+    img: 'https://publish-p47754-e237306.adobeaemcloud.com/content/dam/common/statics/public-content/competition/football/34pl8szyvrbwcmfkuocjm3r6t-icon.app.svg?$Mobile$&wid=32&hei=32',
+    count: 35,
+  },
+  {
+    id: 5,
+    name: 'Copa',
+    img: 'https://publish-p47754-e237306.adobeaemcloud.com/content/dam/common/statics/public-content/competition/football/apdwh753fupxheygs8seahh7x-icon.app.svg?$Mobile$&wid=32&hei=32',
+    count: 20,
+  },
+  {
+    id: 6,
+    name: 'Spanish Super Cup',
+    img: 'https://publish-p47754-e237306.adobeaemcloud.com/content/dam/portals/realmadrid-com/es-es/core-content/assemblies/honors/trophies/SUPERCOPA%20DE%20ESPANA.app.svg?$Mobile$&wid=32&hei=32',
+    count: 13,
+  },
 ];

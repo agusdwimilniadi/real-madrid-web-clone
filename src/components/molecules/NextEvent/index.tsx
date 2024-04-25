@@ -5,11 +5,16 @@ import { motion } from 'framer-motion';
 import { IoMdOptions } from 'react-icons/io';
 import Event from '../../atoms/Event';
 import { NEXT_EVENTS } from '../../../constant/const';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { FreeMode, Navigation, Pagination } from 'swiper/modules';
+import 'swiper/css';
+import 'swiper/css/pagination';
+import 'swiper/css/navigation';
 
 const NextEvent = () => {
   const [openModal, setOpenModal] = useState(false);
   return (
-    <section className="mb-40 flex flex-col gap-3">
+    <section className=" flex flex-col gap-3">
       <div className="flex items-center justify-between">
         <h1 className="text-3xl font-bold">Next Events</h1>
         <GoArrowRight size={25} className="text-gray-400" />
@@ -23,22 +28,47 @@ const NextEvent = () => {
           Filter Teams (48)
         </button>
       </div>
+      <div></div>
       <div>
-        {NEXT_EVENTS.map((item) => (
-          <Event
-            competitionType={item.competitionType}
-            key={item.nameTeamAway}
-            date={item.date}
-            logoTeamAway={item.logoTeamAway}
-            logoTeamHome={item.logoTeamHome}
-            nameTeamAway={item.nameTeamAway}
-            nameTeamHome={item.nameTeamHome}
-            stadium={item.stadium}
-            steps={item.steps}
-          />
-        ))}
+        <Swiper
+          navigation={true}
+          grabCursor={true}
+          pagination={{
+            clickable: true,
+          }}
+          breakpoints={{
+            640: {
+              slidesPerView: 2,
+              spaceBetween: 20,
+            },
+            1024: {
+              slidesPerView: 4,
+              spaceBetween: 20,
+            },
+          }}
+          modules={[Pagination, FreeMode, Navigation]}
+          className="mySwiper"
+        >
+          {NEXT_EVENTS.map((item) => (
+            <SwiperSlide>
+              <Event
+                competitionType={item.competitionType}
+                key={item.nameTeamAway}
+                date={item.date}
+                logoTeamAway={item.logoTeamAway}
+                logoTeamHome={item.logoTeamHome}
+                nameTeamAway={item.nameTeamAway}
+                nameTeamHome={item.nameTeamHome}
+                stadium={item.stadium}
+                steps={item.steps}
+              />
+            </SwiperSlide>
+          ))}
+        </Swiper>
       </div>
-
+      {/* <p>
+        https://stackoverflow.com/questions/64099383/swiper-react-how-to-create-custom-navigation-pagination-components-using-react
+      </p> */}
       <motion.div
         initial={{ opacity: 0 }}
         animate={

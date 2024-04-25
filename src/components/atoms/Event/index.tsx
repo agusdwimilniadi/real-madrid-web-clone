@@ -23,8 +23,8 @@ const Event = ({
   stadium,
 }: IEvent) => {
   return (
-    <div className="w-[312px] ">
-      <div className="bg-[#0F2145] rounded-lg p-10 text-white text-center   flex flex-col gap-2 pb-10">
+    <div className="w-full p-5 lg:p-0 mb-10">
+      <div className="bg-[#0F2145] h-44 rounded-xl p-5 text-white text-center justify-center  flex flex-col gap-2 pb-10">
         <div className="grid grid-cols-3 items-center">
           <div>
             <img
@@ -59,7 +59,7 @@ const Event = ({
         <div className="grid grid-cols-3 items-center">
           <p className="text-sm text-center">{nameTeamHome}</p>
           <p></p>
-          <p className="text-sm text-center">{nameTeamAway}</p>
+          <p className="text-sm text-center">{nameTeamAway} </p>
         </div>
       </div>
       <div className="relative -top-5 rounded-xl  w-full  flex flex-col gap-1 p-5 bg-white shadow-lg">
